@@ -19,6 +19,18 @@ body {
       background: url("../img/header-bg.png");
 
       header {
+        @media screen and (max-width: 1367px) {
+          width: 968px;
+        }
+
+        @media screen and (max-width: 967px) {
+          width: 768px;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 480px;
+        }
+
         padding-top: 60px;
         width: 1368px;
         margin: 0 auto;
@@ -161,6 +173,18 @@ body {
     }
 
     section.about-restaurant {
+      @media screen and (max-width: 1367px) {
+        width: 968px;
+      }
+
+      @media screen and (max-width: 967px) {
+        width: 768px;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 480px;
+      }
+
       display: flex;
       flex-direction: column;
       width: 1368px;
@@ -268,6 +292,18 @@ body {
       padding-bottom: 177px;
 
       .wrap {
+        @media screen and (max-width: 1367px) {
+          width: 968px;
+        }
+
+        @media screen and (max-width: 967px) {
+          width: 768px;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 480px;
+        }
+
         display: flex;
         margin: 0 auto;
         width: 1368px;
@@ -350,6 +386,18 @@ body {
     }
 
     section.reservations {
+      @media screen and (max-width: 1367px) {
+        width: 968px;
+      }
+
+      @media screen and (max-width: 967px) {
+        width: 768px;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 480px;
+      }
+
       width: 1368px;
       padding-top: 177px;
       padding-bottom: 177px;
@@ -509,6 +557,18 @@ body {
       padding-bottom: 177px;
 
       .wrap {
+        @media screen and (max-width: 1367px) {
+          width: 968px;
+        }
+
+        @media screen and (max-width: 967px) {
+          width: 768px;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 480px;
+        }
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -625,6 +685,18 @@ body {
       background-color: #222222;
 
       footer {
+        @media screen and (max-width: 1367px) {
+          width: 968px;
+        }
+
+        @media screen and (max-width: 967px) {
+          width: 768px;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 480px;
+        }
+
         padding-top: 50px;
         padding-bottom: 50px;
         width: 1368px;
