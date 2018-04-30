@@ -36,6 +36,11 @@
   }
   
   @mixin btn {
+    @media screen and (max-width: 1367px) {
+      font-size: 16px;
+      padding: 15px 30px;
+    }
+
     cursor: pointer;
     @include PT-serif-bold;
     font-size: 18px;
@@ -48,3 +53,5 @@
     border-radius: 5px;
     padding: 20px 35px;
   }
+
+
